@@ -250,7 +250,7 @@
 @media (max-width:600px) {
     .hero-cont h1 {
         font-size: 2rem;
-        width: 400px;
+        width: 100%;
     }
 
     #hero-b-image {
