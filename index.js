@@ -22,6 +22,14 @@ mobileview.addEventListener('click', ()=>{
     mobileLink.classList.toggle('show-mobile-links')
 })
 
+// sub mobile links
+let subMobileLink= document.querySelector('.fa-link');
+let  mobileSubLinks = document.querySelector('.mobile-sub-links');
+
+subMobileLink.addEventListener('click', ()=>{
+    mobileSubLinks.classList.toggle('show-m-sub-links')
+})
+
 
 
 
