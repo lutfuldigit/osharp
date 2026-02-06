@@ -1,2 +1,3 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOsharp | Digital Agency\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAbout us | osharp digital\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwhat we do\\E$"}
