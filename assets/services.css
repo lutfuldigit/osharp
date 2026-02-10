@@ -348,7 +348,7 @@ body {
 .contact-hero {
     height: 80vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.763)), url(/images/about-us.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.763)), url(../images/about-us.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

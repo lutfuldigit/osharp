@@ -1,3 +1,12 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOsharp | Digital Agency\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAbout us | osharp digital\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwhat we do\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qosharp | contact page\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLutfuldigit\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q— Yesir Agunbiade\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q— Daniel Olajide.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q— Aminat Muhammad.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qosharp | insight\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qosharp | insight\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qosharp | services\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFrom clean designs to solid development, osharp delivers websites that are easy to manage, SEO-friendly, and built for long-term growth.\\E$"}

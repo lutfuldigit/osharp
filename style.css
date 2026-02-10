@@ -250,7 +250,7 @@ body {
     width: 400px;
     top: auto;
     right: auto;
-    opacity: 0.05;
+    opacity: 0.15;
     animation: scalling-hero-image 5s infinite alternate;
 }
 

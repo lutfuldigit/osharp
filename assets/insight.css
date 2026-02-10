@@ -83,15 +83,12 @@ body {
 .topics {
     /* display: flex; */
     white-space: nowrap;
-    overflow: hidden;
     padding: 10px 0;
     margin-top: 4px;
-}
-
-.topics:hover {
     overflow-x: auto;
     scrollbar-width: thin;
 }
+
 
 
 
