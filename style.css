@@ -233,6 +233,16 @@ body {
     width: 80%;
     text-align: center;
     line-height: 1.6;
+    animation: hero-scale 1s ease-in-out;
+}
+
+@keyframes hero-scale{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .hero-text-cont {
@@ -285,8 +295,18 @@ body {
     }
 }
 
+/* ... intersection for the sections .... */
 
+.intersect-sec{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: 2s;
+}
 
+.intersect-sec-show{
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /*  about CONTAINER */
 
@@ -667,8 +687,8 @@ body {
 }
 
 .back-to-top {
-    position: fixed;
-    bottom: 50px;
+    position: sticky;
+    /* bottom: 0px; */
     color: var(--oblue);
     background-color: #ffffff;
     padding: 10px;

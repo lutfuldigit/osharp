@@ -18,136 +18,6 @@ body {
     background-color: rgba(128, 128, 128, 0.466);
 }
 
-/* .........desk navigation */
-/* 
-.desk-nav {
-    display: flex;
-    background-color: var(--oblack);
-    padding: 10px 10%;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-}
-
-
-
-.service-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.service-links li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.service-links li a:hover {
-    color: var(--light-blue);
-}
-
-
-#cta-btn {
-    background-color: var(--oblue);
-    border: none;
-    color: #ffffff;
-    padding: 15px 20px;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-#cta-btn:hover {
-    background-color: var(--light-blue);
-}
-
-
-.mobile-nav {
-    display: none;
-}
- */
-
-
-/* ....responsive for mobile */
-
-/* @media (max-width:800px) {
-
-
-    .desk-nav {
-        display: none;
-    }
-
-    .mobile-nav {
-        display: block;
-        padding: 10px 5%;
-        background-color: var(--oblack);
-        border-bottom: 2px solid #ffffff2d;
-    }
-
-    .mobile-nav nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    #mobile-links {
-        display: none;
-    }
-
-    #mobile-links.show-mobile-links {
-        display: block;
-    }
-
-    .hambuger {
-        background-color: var(--oblue);
-        color: #fff;
-        padding: 10px;
-        font-size: 1.1rem;
-    }
-
-    #mobile-links a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .mobile-nav ul li:hover {
-        background-color: var(--oblack);
-        width: 100%;
-    }
-
-    #mobile-links {
-        background-color: var(--oblue);
-        width: 100%;
-        list-style: none;
-        position: absolute;
-        text-align: center;
-        align-content: center;
-        top: 70px;
-        left: 0;
-        z-index: 5;
-        padding: 10px;
-        line-height: 2;
-        height: 100vh;
-        font-size: 1.3rem;
-
-    }
-
-    .mobile-sub-links {
-        display: none;
-        position: relative;
-        left: 20px;
-        font-size: 1rem;
-        list-style: none;
-
-    }
-
-    .mobile-sub-links.show-m-sub-links {
-        font-size: 0.9rem;
-        display: block;
-    }
-} */
 
 
 /* ... desk navigation section  */
@@ -312,7 +182,7 @@ body {
         width: 100%;
         list-style: none;
         position: absolute;
-        text-align: center;
+        text-align: start;
         align-content: center;
         top: 70px;
         left: 0;

@@ -28,6 +28,27 @@ let  mobileSubLinks = document.querySelector('.mobile-sub-links');
 
 subMobileLink.addEventListener('click', ()=>{
     mobileSubLinks.classList.toggle('show-m-sub-links')
+});
+
+
+
+// ..........section intersection
+
+const sections = document.querySelectorAll('.intersect-sec');
+
+function handleSection(entries){
+    entries.forEach(entrie=>{
+        if(entrie.isIntersecting){
+            entrie.target.classList.add('intersect-sec-show')
+        } else{
+            entrie.target.classList.remove('intersect-sec-show')
+        }
+    })
+};
+
+const observer = new IntersectionObserver(handleSection);
+sections.forEach(section=>{
+    observer.observe(section)
 })
 
 
